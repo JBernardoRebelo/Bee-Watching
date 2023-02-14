@@ -27,9 +27,11 @@
 .App-link {
   color: #61dafb;
 }
-/* 
-TO REFACTOR INTO STYLE COMPONENT */
+
+/* TO REFACTOR INTO STYLE COMPONENT */
+
 .previousMovies{
   border: solid red;
   display: flex;
 }
+

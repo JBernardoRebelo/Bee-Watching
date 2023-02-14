@@ -20,11 +20,14 @@ function App() {
   })
 
   return (
-    
     <div className="App">
+
+      {/* Navbar showcase */}
       <NavBar/>
 
+      {/* Previous movies layout */}
       <div className="previousMovies">{movies}</div>
+      
     </div>
   );
 }
