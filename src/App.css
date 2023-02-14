@@ -35,3 +35,7 @@
   display: flex;
 }
 
+.movie{
+  border: solid red;
+  margin: 15px;
+}
