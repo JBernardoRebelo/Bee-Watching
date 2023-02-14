@@ -1,9 +1,25 @@
 // Array containing all movies info
+import img_1 from '../Images/Brave_Hearth.jpg'
+import img_2 from '../Images/Children_Men.jpg'
+import img_3 from '../Images/City_of_god.jpg'
+import img_4 from '../Images/Code_inigma.jpg'
+import img_5 from '../Images/GoneGirl.jpg'
+import img_6 from '../Images/Haunted_house.jpg'
+import img_7 from '../Images/Idiots.jpg'
+import img_8 from '../Images/Interstellar.jpg'
+import img_9 from '../Images/knives_out.jpg'
+import img_10 from '../Images/OldBoy.jpg'
+import img_11 from '../Images/Shutter_island.jpg'
+import img_12 from '../Images/The_room.jpg'
+import img_13 from '../Images/Velocipastor.jpg'
+import img_14 from '../Images/Waking_life.jpg'
+import img_15 from '../Images/yeti.jpg'
+
 const Info = [
     {
         id:  1,
         title: "Braveheart",
-        coverImg: "Brave_hearth.jpg",
+        coverImg: img_1,
         year: 1995,
         moviePicker: "Diogo",
         genres: "Biography, Drama, History, War",
@@ -13,7 +29,7 @@ const Info = [
     {
         id:  2,
         title: "Children Of Men",
-        coverImg: "Children_Men.jpg",
+        coverImg: img_2,
         year: 2006,
         moviePicker: "Unkown",
         genres: "Action, Drama, Sci-Fi, Thriller",
@@ -23,7 +39,7 @@ const Info = [
     {
         id:  3,
         title: "City Of God",
-        coverImg: "City_of_god.jpg",
+        coverImg: img_3,
         year: 2002,
         moviePicker: "RodNog",
         genres: "Crime, Drama",
@@ -33,7 +49,7 @@ const Info = [
     {
         id:  4,
         title: "The Imitation Game",
-        coverImg: "Code_inigma.jpg",
+        coverImg: img_4,
         year: 2014,
         moviePicker: "Unkown",
         genres: "Biography, Drama, Thriller, War",
@@ -43,7 +59,7 @@ const Info = [
     {
         id:  5,
         title: "Gone Girl",
-        coverImg: "GoneGirl.jpg",
+        coverImg:img_5,
         year: 2014,
         moviePicker: "Sérgio Sequeira",
         genres: "Drama, Mistery, Thriller",
@@ -53,7 +69,7 @@ const Info = [
     {
         id:  6,
         title: "A Haunted House",
-        coverImg: "Haunted_House.jpg",
+        coverImg: img_6,
         year: 2013,
         moviePicker: "Ianis",
         genres: "Comedy, Fantasy, Horror",
@@ -63,7 +79,7 @@ const Info = [
     {
         id:  7,
         title: "3 Idiots",
-        coverImg: "Idiots.jpg",
+        coverImg: img_7,
         year: 2009,
         moviePicker: "Eduarda",
         genres: "Comedy, Drama",
@@ -73,7 +89,7 @@ const Info = [
     {
         id:  8,
         title: "Interstellar",
-        coverImg: "Interstellar.jpg",
+        coverImg: img_8,
         year: 2014,
         moviePicker: "Minibix",
         genres: "Adventure, Drama, Sci-Fi",
@@ -83,7 +99,7 @@ const Info = [
     {
         id:  9,
         title: "Knives Out",
-        coverImg: "knives_out.jpg",
+        coverImg: img_9,
         year: 2019,
         moviePicker: "Marina",
         genres: "Comedy, Crime, Drama, Mystery, Thriller",
@@ -93,7 +109,7 @@ const Info = [
     {
         id:  10,
         title: "OldBoy",
-        coverImg: "OldBoy.jpg",
+        coverImg: img_10,
         year: 2003,
         moviePicker: "Alex",
         genres: "Action, Drama, Mystery, Thriller",
@@ -103,7 +119,7 @@ const Info = [
     {
         id:  11,
         title: "Shutter Island",
-        coverImg: "Shutter_island.jpg",
+        coverImg: img_11,
         year: 2010,
         moviePicker: "Unknown",
         genres: "Mystery, Thriller",
@@ -113,7 +129,7 @@ const Info = [
     {
         id:  12,
         title: "The Room",
-        coverImg: "The_room.jpg",
+        coverImg: img_12,
         year: 2003,
         moviePicker: "Ramalho",
         genres: "Drama",
@@ -123,7 +139,7 @@ const Info = [
     {
         id:  13,
         title: "Velocispastor",
-        coverImg: "Velocipastor.jpg",
+        coverImg: img_13,
         year: 2018,
         moviePicker: "Vegui",
         genres: "Action, Adventure, Comedy, Fantasy, Horror, Sci-Fi, Thriller",
@@ -133,7 +149,7 @@ const Info = [
     {
         id:  14,
         title: "Waking Life",
-        coverImg: "Waking_life.jpg",
+        coverImg: img_14,
         year: 2001,
         moviePicker: "Gripe",
         genres: "Animation, Drama, Fantasy",
@@ -143,7 +159,7 @@ const Info = [
     {
         id:  15,
         title: "Yeti: Curse of the Snow Demon",
-        coverImg: "yeti.jpg",
+        coverImg: img_15,
         year: 2008,
         moviePicker: "Matinhos",
         genres: "Action, Adventure, Horror, Thriller",
