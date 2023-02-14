@@ -18,6 +18,11 @@
   display: flex;
 }
 
+.currentMovie{
+  border:solid red;
+  display: flex;
+}
+
 .movie{
   border: solid red;
   margin: 15px;
