@@ -7,7 +7,7 @@ export default function Movie(prop){
     return(
         <div>
             {/* DEBUGGING INFO */}
-            <img src={prop.coverImg} alt="Movie Cover"/>
+            <img src={prop.coverImg} height={300} width={200} alt="Movie Cover"/>
             <p>Title: {prop.title}</p>
             <p>Movie Picker: {prop.moviePicker}</p>
             <p>Genre: {prop.genres}</p>
