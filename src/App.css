@@ -20,11 +20,12 @@
 .previousMovies{
   border: solid red;
   display: flex;
+  margin: 20px;
 }
 
 .currentMovie{
-  border:solid red;
-  display: flex;
+  border:solid red;;
+  /* display: flex; */
 }
 
 .movie{

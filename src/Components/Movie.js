@@ -3,29 +3,38 @@ import React from "react";
 // Movie object
 // creates movie instance from info
 
-export default function Movie(prop, isCurrent){
+var title;
+var coverImg;
+var moviePicker;
+var genres;
+var duration;
+var rate;
+
+export default function Movie(prop){
+
+    // coverImg = prop.coverImg; 
+    // title = prop.title;
+    // moviePicker = prop.moviePicker;
+    // genres = prop.genres;
+    // duration = prop.duration;
+    // rate = prop.rate;
+
+    coverImg = prop.coverImg; 
+    title = prop.title;
+    moviePicker = prop.moviePicker;
+    genres = prop.genres;
+    duration = prop.duration;
+    rate = prop.rate;
     
-    if(isCurrent)
-    {
-       return(
-        <div className="currentMovie">
+    return(
+        <div className="movie">
             {/* SHOWCASE ALL INFO */}
-            <img src={prop.coverImg} height={300} width={200} alt="Movie Cover"/>
-            <p>Title: {prop.title}</p>
-            <p>Movie Picker: {prop.moviePicker}</p>
-            <p>Genre: {prop.genres}</p>
-            <p>Duration: {prop.duration}</p>
-            <p>Rate: {prop.rate}</p>
+            <img src={coverImg} height={300} width={200} alt="Movie Cover"/>
+            <p>Title: {title}</p>
+            <p>Movie Picker: {moviePicker}</p>
+            <p>Genre: {genres}</p>
+            <p>Duration: {duration}</p>
+            <p>Rate: {rate}</p>
         </div>
-       ) 
-    }
-    else
-    {
-        return(
-        <div>
-            <img src={prop.coverImg} height={300} width={200} alt="Movie Cover"/>
-            <p>Title: {prop.title}</p>
-        </div>
-        )
-    }
+    )
 }

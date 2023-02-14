@@ -2,19 +2,21 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Info from './Components/Info';
 import Movie from './Components/Movie';
+import CurrentMovie from './Components/CurrentMovie';
+import PreviousMovies from './Components/PreviousMovies';
 
 function App() {
 
   const movies = Info.map(item => {
     return(
       <Movie
-      title = {item.title}
-      coverImg = {item.coverImg}
-      year = {item.year}
-      moviePicker = {item.moviePicker}
-      genres = {item.genres}
-      duration = {item.duration}
-      rate = {item.rate}
+        title = {item.title}
+        coverImg = {item.coverImg}
+        year = {item.year}
+        moviePicker = {item.moviePicker}
+        genres = {item.genres}
+        duration = {item.duration}
+        rate = {item.rate}
     />
     )
   })
@@ -25,14 +27,15 @@ function App() {
       <NavBar/>
 
       {/* Selected Movie */}
-      <div className="currentMovie">
-        {movies[3]}
-      </div>
-      {/* Movie instances layout */}
-      <div className="previousMovies">
-        {movies}
+      <div>
+        {CurrentMovie(movies[4])}
       </div>
 
+      {/* Movie instances layout */}
+      <div>
+        {/* {movies} */}
+        {PreviousMovies(movies)}
+      </div>
     </div>
   );
 }
