@@ -1,10 +1,10 @@
 import React from "react";
 
 function NavBar(){
-    <nav className="nav_style">
-        <img></img>
-        <h3></h3>
-        <div className="opt_Bar">
+    <div>
+        <h1>debug</h1>
+        <nav className="nav_style">
+            <div className="opt_Bar">
             <link>Home</link>
             <link>Draw</link>
             <link>Requests</link>
@@ -13,6 +13,8 @@ function NavBar(){
                 <h3>Season</h3>
             </div>
         </div>
-    </nav>
+        </nav>
+    </div>
+    
 }
 export default NavBar;
