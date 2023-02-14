@@ -25,6 +25,9 @@ function App() {
       <NavBar/>
 
       {/* Selected Movie */}
+      <div className="currentMovie">
+        {movies[5]}
+      </div>
       {/* Movie instances layout */}
       <div className="previousMovies">
         {movies}
