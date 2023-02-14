@@ -22,6 +22,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      {/* Debug */}
+      <img src= "./src/Images/yeti.jpg" alt='yeti'/>
+
       <div>{movies}</div>
     </div>
   );
