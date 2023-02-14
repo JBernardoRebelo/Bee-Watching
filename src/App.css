@@ -29,6 +29,10 @@
 }
 
 /* TO REFACTOR INTO STYLE COMPONENT */
+.img_style{
+  top: 0;
+  left: 30px;
+}
 
 .previousMovies{
   border: solid red;
