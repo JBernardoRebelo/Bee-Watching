@@ -2,7 +2,6 @@ import './App.css';
 import NavBar from './Components/NavBar';
 import Info from './Components/Info';
 import Movie from './Components/Movie';
-import Logo from './Images/yeti.jpg';
 
 function App() {
 
@@ -23,12 +22,9 @@ function App() {
   return (
     
     <div className="App">
-      
-      {/* <NavBar/> Debug */}
-      
-      <img src= {Logo}  alt='yeti'/>
+      <NavBar/>
 
-      <div>{movies}</div>
+      <div className="previousMovies">{movies}</div>
     </div>
   );
 }
