@@ -26,7 +26,7 @@ function App() {
 
       {/* Selected Movie */}
       <div className="currentMovie">
-        {movies[5]}
+        {movies[3]}
       </div>
       {/* Movie instances layout */}
       <div className="previousMovies">
