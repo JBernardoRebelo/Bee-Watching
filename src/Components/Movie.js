@@ -17,15 +17,18 @@ function Movie({isCurrent}){
         <div>
             <div className="currentMovie">
                 {/* SHOWCASE ALL INFO */}
-                <img src={Info[listIndex].coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
+                <img src={Info[listIndex].coverImg} className="movieCover" height={600} width={400} alt="Movie Cover"/>
                 <div className="currentMovieInfo">
                     <p>{Info[listIndex].title}</p>
-                    <p>{Info[listIndex].moviePicker}</p>
+                    <div>
+                        <img src={Info[listIndex].profilePic} height={40} width={40} alt="profile"/>
+                        <p>{Info[listIndex].moviePicker}</p>
+                    </div>
                     <p>{Info[listIndex].genres}</p>
                     <p>{Info[listIndex].duration}</p>
                     <div>
-                    <img src={img_1} alt="imdb icon"/>
-                    <p>{Info[listIndex].rate}</p>
+                        <img src={img_1} alt="imdb icon"/>
+                        <p>{Info[listIndex].rate}</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +42,7 @@ function Movie({isCurrent}){
                         <img src={item.profilePic} height={30} width={30} alt="profile"/>
                         <p>{item.moviePicker}</p>
                     </div>        
-                    )
+                )
                 })}
             </div>
         </div>
