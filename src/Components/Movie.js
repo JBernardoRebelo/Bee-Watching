@@ -17,15 +17,14 @@ function Movie({isCurrent}){
     {
         showMovie =
         <div className="movie">
-                    {
-                console.log("entrei no current movie")}
-                    {/* SHOWCASE ALL INFO */}
-                    <img src={Info[listIndex].coverImg} height={300} width={200} alt="Movie Cover"/>
-                    <p>Title: {Info[listIndex].title}</p>
-                    <p>Movie Picker: {Info[listIndex].moviePicker}</p>
-                    <p>Genre: {Info[listIndex].genres}</p>
-                    <p>Duration: {Info[listIndex].duration}</p>
-                    <p>Rate: {Info[listIndex].rate}</p>
+            {console.log("entrei no current movie")}
+            {/* SHOWCASE ALL INFO */}
+            <img src={Info[listIndex].coverImg} height={300} width={200} alt="Movie Cover"/>
+            <p>Title: {Info[listIndex].title}</p>
+            <p>Movie Picker: {Info[listIndex].moviePicker}</p>
+            <p>Genre: {Info[listIndex].genres}</p>
+            <p>Duration: {Info[listIndex].duration}</p>
+            <p>Rate: {Info[listIndex].rate}</p>
         </div>
     }
     else
@@ -40,7 +39,7 @@ function Movie({isCurrent}){
                             <p>Title: {item.title}</p>
                             <p>Movie Picker: {item.moviePicker}</p>
                         </div>
-                        )
+                    )
                 })}
         </div>
     }
