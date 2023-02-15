@@ -1,20 +1,11 @@
 import './App.css';
-import NavBar from './Components/NavBar';
-import Movie from './Components/Movie';
+import Home from './Components/Home';
 
 function App() {
 
   return (
     <div className="App">
-      {/* Navbar showcase */}
-      <NavBar/>
-
-     
-      <div>
-        <Movie />
-      </div>
-
-      
+      <Home/>
     </div>
   );
 }
