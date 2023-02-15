@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Info from "./Info";
+import img_1 from '../Images/icon_imdb.png'
 
 // Movie object
 // creates movie instance from info
@@ -15,28 +16,31 @@ function Movie({isCurrent}){
     return(
         <div>
             <div className="currentMovie">
-                {console.log("entrei no current movie")}
                 {/* SHOWCASE ALL INFO */}
                 <img src={Info[listIndex].coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
                 <div className="currentMovieInfo">
-                    <p>Title: {Info[listIndex].title}</p>
-                    <p>Movie Picker: {Info[listIndex].moviePicker}</p>
-                    <p>Genre: {Info[listIndex].genres}</p>
-                    <p>Duration: {Info[listIndex].duration}</p>
-                    <p>Rate: {Info[listIndex].rate}</p>
+                    <p>{Info[listIndex].title}</p>
+                    <p>{Info[listIndex].moviePicker}</p>
+                    <p>{Info[listIndex].genres}</p>
+                    <p>{Info[listIndex].duration}</p>
+                    <div>
+                    <img src={img_1} alt="imdb icon"/>
+                    <p>{Info[listIndex].rate}</p>
+                    </div>
                 </div>
-            </div>   
+            </div>
+            <h2>Previous Movies</h2>
             <div className="previousMovies">
-                    {console.log("entrei no previous movie")}
-                    {Info.map((item, index) => {
-                    return(
-                        <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                            <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
-                            <p>Title: {item.title}</p>
-                            <p>Movie Picker: {item.moviePicker}</p>
-                        </div>        
+                {Info.map((item, index) => {
+                return(
+                    <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
+                        <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
+                        <p classname="title">{item.title}</p>
+                        <img src={item.profilePic} height={30} width={30} alt="profile"/>
+                        <p>{item.moviePicker}</p>
+                    </div>        
                     )
-                    })}
+                })}
             </div>
         </div>
     )

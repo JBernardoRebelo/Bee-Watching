@@ -14,6 +14,7 @@ import img_12 from '../Images/The_room.jpg'
 import img_13 from '../Images/Velocipastor.jpg'
 import img_14 from '../Images/Waking_life.jpg'
 import img_15 from '../Images/yeti.jpg'
+import img_16 from '../Images/profileIcon.png'
 
 const Info = [
     {
@@ -21,7 +22,8 @@ const Info = [
         title: "Braveheart",
         coverImg: img_1,
         year: 1995,
-        moviePicker: "Diogo",
+        moviePicker: "Diogo Pinto",
+        profilePic: img_16,
         genres: "Biography, Drama, History, War",
         duration: "2h 58m",
         rate: 8.4
@@ -31,7 +33,8 @@ const Info = [
         title: "Children Of Men",
         coverImg: img_2,
         year: 2006,
-        moviePicker: "Unkown",
+        moviePicker: "Unknown",
+        profilePic: img_16,
         genres: "Action, Drama, Sci-Fi, Thriller",
         duration: "1h 49m",
         rate: 7.9
@@ -42,6 +45,7 @@ const Info = [
         coverImg: img_3,
         year: 2002,
         moviePicker: "RodNog",
+        profilePic: img_16,
         genres: "Crime, Drama",
         duration: "2h 10m",
         rate: 8.6
@@ -51,7 +55,8 @@ const Info = [
         title: "The Imitation Game",
         coverImg: img_4,
         year: 2014,
-        moviePicker: "Unkown",
+        moviePicker: "Unknown",
+        profilePic: img_16,
         genres: "Biography, Drama, Thriller, War",
         duration: "1h 54m",
         rate: 8.0
@@ -61,7 +66,8 @@ const Info = [
         title: "Gone Girl",
         coverImg:img_5,
         year: 2014,
-        moviePicker: "Sérgio Sequeira",
+        moviePicker: "Sérgio",
+        profilePic: img_16,
         genres: "Drama, Mistery, Thriller",
         duration: "2h 29m",
         rate: 8.0
@@ -72,6 +78,7 @@ const Info = [
         coverImg: img_6,
         year: 2013,
         moviePicker: "Ianis",
+        profilePic: img_16,
         genres: "Comedy, Fantasy, Horror",
         duration: "1h 26m",
         rate: 5.0
@@ -82,6 +89,7 @@ const Info = [
         coverImg: img_7,
         year: 2009,
         moviePicker: "Eduarda",
+        profilePic: img_16,
         genres: "Comedy, Drama",
         duration: "2h 50m",
         rate: 8.4
@@ -92,6 +100,7 @@ const Info = [
         coverImg: img_8,
         year: 2014,
         moviePicker: "Minibix",
+        profilePic: img_16,
         genres: "Adventure, Drama, Sci-Fi",
         duration: "2h 49m",
         rate: 8.6
@@ -102,6 +111,7 @@ const Info = [
         coverImg: img_9,
         year: 2019,
         moviePicker: "Marina",
+        profilePic: img_16,
         genres: "Comedy, Crime, Drama, Mystery, Thriller",
         duration: "2h 10m",
         rate: 7.9
@@ -112,6 +122,7 @@ const Info = [
         coverImg: img_10,
         year: 2003,
         moviePicker: "Alex",
+        profilePic: img_16,
         genres: "Action, Drama, Mystery, Thriller",
         duration: "2h",
         rate: 8.4
@@ -122,6 +133,7 @@ const Info = [
         coverImg: img_11,
         year: 2010,
         moviePicker: "Unknown",
+        profilePic: img_16,
         genres: "Mystery, Thriller",
         duration: "2h 18m",
         rate: 8.2
@@ -132,6 +144,7 @@ const Info = [
         coverImg: img_12,
         year: 2003,
         moviePicker: "Ramalho",
+        profilePic: img_16,
         genres: "Drama",
         duration: "1h 39m",
         rate: 3.6
@@ -142,6 +155,7 @@ const Info = [
         coverImg: img_13,
         year: 2018,
         moviePicker: "Vegui",
+        profilePic: img_16,
         genres: "Action, Adventure, Comedy, Fantasy, Horror, Sci-Fi, Thriller",
         duration: "1h 15m",
         rate: 5.0
@@ -152,6 +166,7 @@ const Info = [
         coverImg: img_14,
         year: 2001,
         moviePicker: "Gripe",
+        profilePic: img_16,
         genres: "Animation, Drama, Fantasy",
         duration: "1h 39m",
         rate: 7.7
@@ -162,6 +177,7 @@ const Info = [
         coverImg: img_15,
         year: 2008,
         moviePicker: "Matinhos",
+        profilePic: img_16,
         genres: "Action, Adventure, Horror, Thriller",
         duration: "1h 27m",
         rate: 3.3

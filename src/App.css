@@ -1,5 +1,6 @@
 .App {
   font: bold;
+  color: white;
   text-align: center;
 }
 
@@ -21,9 +22,9 @@
 
 .currentMovie{
   /*border: solid red;                /*Debug*/
-  display: flex;
   margin: 20px;
-  font-size: x-large;
+  font-style: italic;
+  display: flex;
 }
 
 .currentMovieInfo{
@@ -39,4 +40,9 @@
 .movieCover{
   /*border: red;                    /*Debug*/
   border-radius: 15px;
+}
+
+.title{
+  font-size: large;
+  font-style: italic;
 }
