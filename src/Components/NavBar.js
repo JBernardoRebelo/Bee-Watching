@@ -18,21 +18,20 @@ export default function NavBar(){
         )
     }
     return(
-        <div>
-            <h1>Fix what's commented -Vegui</h1>
-                <nav className="nav_style">
-                    <img src={img_logo} className="img_style"/>
-                    <div className="opt_Bar">
-                        <Link to="/">Home</Link>
-                        <Link to="/Draw">Draw</Link>
-                        <Link to="/Request">Request</Link>
-                        <Link to="/Awards">Awards</Link>
-                        <div className="showSeason">
-                            <h3 onClick={()=> setShowSeason(!showSeaon)}>Season</h3>
-                            {Seasons}
-                        </div>
+        <div className="nav_style">
+            <nav>
+                <img src={img_logo} className="img_style" alt="logo"/>
+                <div className="opt_Bar">
+                    <Link to="/">Home</Link>
+                    <Link to="/Draw">Draw</Link>
+                    <Link to="/Request">Request</Link>
+                    <Link to="/Awards">Awards</Link>
+                    <div className="showSeason">
+                        <h3 onClick={()=> setShowSeason(!showSeaon)}>Season</h3>
+                        {Seasons}
                     </div>
-                </nav>
+                </div>
+            </nav>
         </div>
     )
 }

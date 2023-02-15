@@ -14,14 +14,14 @@
   left: 30px;
 }
 
-.previousMovies{
-  /*border: solid red;                /*Debug*/
+/* .previousMovies{
+  border: solid red;
   display: flex;
   margin: 20px;
 }
 
 .currentMovie{
-  /*border: solid red;                /*Debug*/
+  border: solid red;
   margin: 20px;
   font-style: italic;
   display: flex;
@@ -32,17 +32,12 @@
   font-size:x-large;
 }
 
-.moviePreviousMovie{
-  /*border: solid red;              /*Debug*/
-  margin: 15px;
-}
-
 .movieCover{
-  /*border: red;                    /*Debug*/
+  border: red;
   border-radius: 15px;
 }
 
-.title{
-  font-size: large;
-  font-style: italic;
-}
+.moviePreviousMovie{
+  border: solid red;
+  margin: 10px;
+} */
