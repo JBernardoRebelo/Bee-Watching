@@ -1,40 +1,25 @@
 import './App.css';
 import NavBar from './Components/NavBar';
-import Info from './Components/Info';
 import Movie from './Components/Movie';
-import CurrentMovie from './Components/CurrentMovie';
-import PreviousMovies from './Components/PreviousMovies';
 
 function App() {
-
-  const movies = Info.map(item => {
-    return(
-      <Movie
-        title = {item.title}
-        coverImg = {item.coverImg}
-        year = {item.year}
-        moviePicker = {item.moviePicker}
-        genres = {item.genres}
-        duration = {item.duration}
-        rate = {item.rate}
-    />
-    )
-  })
 
   return (
     <div className="App">
       {/* Navbar showcase */}
       <NavBar/>
 
-      {/* Selected Movie */}
+      {/* Current Movie */}
+      <h2> Current Movie </h2>
       <div>
-        {CurrentMovie(movies[4])}
+        <Movie isCurrent={true}/>
       </div>
 
       {/* Movie instances layout */}
-      <div>
-        {/* {movies} */}
-        {PreviousMovies(movies)}
+      <h2> Previous Movies </h2>
+      <div className="previousMovies">
+
+        <Movie isCurrent={false}/>
       </div>
     </div>
   );
