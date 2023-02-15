@@ -1,10 +1,7 @@
 .App {
+  font: bold;
+  color: white;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .App-link {
@@ -18,18 +15,34 @@
 }
 
 .previousMovies{
-  border: solid red;
+  /*border: solid red;                /*Debug*/
   display: flex;
   margin: 20px;
 }
 
 .currentMovie{
-  border:solid red;;
-  /* display: flex; */
+  /*border: solid red;                /*Debug*/
+  margin: 20px;
+  font-style: italic;
+  display: flex;
 }
 
-.movie{
-  border: solid red;
+.currentMovieInfo{
+  margin: 20px;
+  font-size:x-large;
+}
+
+.moviePreviousMovie{
+  /*border: solid red;              /*Debug*/
   margin: 15px;
 }
 
+.movieCover{
+  /*border: red;                    /*Debug*/
+  border-radius: 15px;
+}
+
+.title{
+  font-size: large;
+  font-style: italic;
+}
