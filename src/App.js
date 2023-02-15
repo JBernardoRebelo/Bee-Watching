@@ -9,18 +9,12 @@ function App() {
       {/* Navbar showcase */}
       <NavBar/>
 
-      {/* Current Movie */}
-      <h2> Current Movie </h2>
+     
       <div>
-        <Movie isCurrent={true}/>
+        <Movie />
       </div>
 
-      {/* Movie instances layout */}
-      <h2> Previous Movies </h2>
-      <div className="previousMovies">
-
-        <Movie isCurrent={false}/>
-      </div>
+      
     </div>
   );
 }
