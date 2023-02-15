@@ -19,7 +19,6 @@ export default function NavBar(){
     }
     return(
         <div>
-            <h1>Fix what's commented -Vegui</h1>
                 <nav className="nav_style">
                     <img src={img_logo} className="img_style"/>
                     <div className="opt_Bar">
