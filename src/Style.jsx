@@ -116,7 +116,12 @@ export const _previousMovies = styled.section`
         font-weight: bolder;
     }
 
-    `;
+    .navBarElement{
+        color: white;
+        text-decoration: none;
+    }
+
+    `
 
 export const _currentMovie = styled.section`
 
@@ -128,7 +133,12 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
+<<<<<<< HEAD
         word-spacing: 10px;
+=======
+       
+        
+>>>>>>> origin/navBar
     }
 
     .currentMovieInfo{
@@ -145,6 +155,11 @@ export const _currentMovie = styled.section`
         font-size: xx-large;
         font-weight: bolder;
         text-shadow: 2px 2px #1117;
+    }
+
+    .navBarElement{
+        color: white;
+        text-decoration: none;
     }
 `
 
