@@ -6,9 +6,11 @@ import img_1 from '../Images/icon_imdb.png'
 import img_2 from '../Images/clock-icon.png'
 import img_3 from '../Images/icon_rt.png'
 import img_4 from '../Images/icon_metacritic.png'
+import img_5 from '../Images/icon_play.png'
 
 import { _previousMovies } from "../Style";
 import { _currentMovie } from "../Style";
+import { _par } from "../Style";
 
 // Movie object
 // creates movie instance from info
@@ -28,20 +30,30 @@ function Movie({isCurrent}){
                 {/* SHOWCASE ALL INFO */}
                 {/* <img src={Info[listIndex].coverImg} className="movieCover" height={600} width={400} alt="Movie Cover"/> */}
                 <div className="currentMovieInfo">
-                    <p>{Info[listIndex].title}</p>
+                    <p className="title">{Info[listIndex].title}</p>
                     <div className="flex">
-                        <p>{Info[listIndex].year}</p>
-                        <p>{Info[listIndex].genres}</p>
+                        <_par>{Info[listIndex].year}</_par>
+                        <_par>{Info[listIndex].genres}</_par>
                         <img src={img_2} height={30} width={30} alt="clock icon"/>
-                        <p>{Info[listIndex].duration}</p>
+                        <_par>{Info[listIndex].duration}</_par>
                     </div>
-                    <div className="ratings-style">
-                        <img src={img_1} alt="imdb icon"/>
-                        <p>{Info[listIndex].rate}</p>
-                        <img src={img_3} alt="rotten tomatoes icon"/>
-                        <p>{Info[listIndex].rateRT}</p>
-                        <img src={img_4} alt="metacritic icon"/>
-                        <p>{Info[listIndex].rateMT}</p>
+                    <div className="flex">
+                        <div>
+                            <img src={img_1} height={40} width={40} alt="imdb icon"/>
+                            <_par>{Info[listIndex].rate}</_par>
+                        </div>
+                        <div>
+                            <img src={img_3} height={40} width={40} alt="rotten tomatoes icon"/>
+                            <_par>{Info[listIndex].rateRT}</_par>
+                        </div>
+                        <div>
+                            <img src={img_4} height={40} width={40} alt="metacritic icon"/>
+                            <_par>{Info[listIndex].rateMT}</_par>
+                        </div>
+                        <div>
+                            <img src={img_5} height={40} width={40} alt="trailer icon"/>
+                            <_par>Trailer</_par>
+                        </div>
                     </div>
                     <div>
                         <img src={Info[listIndex].profilePic} height={40} width={40} alt="profile"/>

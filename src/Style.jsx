@@ -25,7 +25,6 @@ export const _previousMovies = styled.section`
 
     .moviePreviousMovie{
         position: relative;
-        border: solid red;
         margin: 10px;
     }
 
@@ -37,7 +36,6 @@ export const _previousMovies = styled.section`
         display: flex;
         margin: 20px;
     }
-
 
     .overlay{
         position: absolute;
@@ -61,13 +59,14 @@ export const _previousMovies = styled.section`
 export const _currentMovie = styled.section`
 
     margin: 50px;
-    font-style: italic;
     text-align: center;
+    font-weight: bold;
 
     .flex{
-        display: flex;
+        margin: 50px;
+        display: flexbox;
         justify-content: center;
-        padding-left: 10px;
+        word-spacing: 5px;
     }
 
     .currentMovieInfo{
@@ -78,4 +77,17 @@ export const _currentMovie = styled.section`
     .movieCover{
         border-radius: 15px;
     }
+
+    .title{
+        font-style: italic;
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+`
+
+export const _par = styled.section`
+
+    padding-left: 20px;
+    padding-right: 20px;
+
 `
