@@ -34,14 +34,25 @@ export const _navStyle = styled.section `
     
     .navBarClick{
         display: flexbox;
+        align-items: center;
     }
 
     .navBarElement{
         margin: 20px;
-        font-size: large;
         font: bold;
         color: white;
-        border: solid red;
+        text-decoration: none;
+    }
+
+    .clickSeasonSyle{
+        margin: 20px;
+        font: bold;
+        color: white;
+    }
+
+    .seasonIcon{
+        margin-bottom: -25px;
+        margin-left: -10px;
     }
 `
 export const _previousMovies = styled.section`
@@ -140,5 +151,11 @@ export const _par2 = styled.section`
 
     padding-left: 30px;
     padding-right: 30px;
+
+`
+
+export const _flexBox = styled.section`
+
+    display: flexbox;
 
 `
