@@ -1,7 +1,8 @@
+/* eslint-disable react/jsx-pascal-case */
 import React, { useState } from "react";
 import img_logo from '../Images/Bee_Watching_Logo.png';
 import { Link } from "react-router-dom";
-import { _nav_style } from "../Style";
+import { _navStyle } from "../Style";
 
 
 export default function NavBar(){
@@ -20,20 +21,19 @@ export default function NavBar(){
         )
     }
     return(
-        <_nav_style>
-                <img src={img_logo} height={80} width={300} className="img_style" alt="logo"/>
-                <div className="opt_Bar">
-                    <Link to="/" className="links">Home</Link>
-                    <Link to="/Draw" className="links">Draw</Link>
-                    <Link to="/Request" className="links">Request</Link>
-                    <Link to="/Awards" className="links">Awards</Link>
-                    <div className="showSeason">
-                        <h3 onClick={()=> setShowSeason(!showSeaon)}>Season</h3>
-                        {Seasons}
-                    </div>
-                </div>
-        </_nav_style>
-            
-       
+        <_navStyle>
+            <div>
+                <img src={img_logo} height={80} width={300} alt="logo"/>
+                <p className="seasonStyle"> Season 2 - 2022</p>  
+            </div>
+            <div className="navBarClick">
+                <Link to="/" className="navBarElement">Home</Link>
+                <Link to="/Draw" className="navBarElement">Draw</Link>
+                <Link to="/Request" className="navBarElement">Request</Link>
+                <Link to="/Awards" className="navBarElement">Awards</Link>
+                <h3 onClick={()=> setShowSeason(!showSeaon)} className="navBarElement">Season</h3>
+                {Seasons}
+            </div>
+        </_navStyle>
     )
 }

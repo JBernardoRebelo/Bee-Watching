@@ -17,29 +17,31 @@ export const _App = styled.section`
     }
 
 `
-export const _nav_style = styled.section `
+export const _navStyle = styled.section `
+    
+    display: flexbox;
+    text-align: center;
     border: solid red;
     padding: 3%;
+    justify-content: space-between;
 
-    .img_style{
-        border: solid red;
-        position: absolute;
-        top: 0px;
-        left: 100px;
+    .seasonStyle{
+        margin-top: -35px;
+        margin-right: 50px;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    
+    .navBarClick{
+        display: flexbox;
     }
 
-    .opt_Bar{
+    .navBarElement{
+        margin: 20px;
+        font-size: large;
+        font: bold;
+        color: white;
         border: solid red;
-        position: absolute;
-        top: 0;
-        right: 10px;
-        display: flex;
-    }
-
-    .links{
-        border: solid red;
-        padding-left: 30px;
-        padding-right: 30px;
     }
 `
 export const _previousMovies = styled.section`
@@ -52,6 +54,7 @@ export const _previousMovies = styled.section`
     .flexbox{
         padding-top: 40px;
         padding-left: 10px;
+        margin-left: 10px;
         display: flexbox;
     }
 
