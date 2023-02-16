@@ -14,12 +14,12 @@ export default function NavBar(){
     if(showSeason){
         Seasons= (
             <div className="seasonLayout">
-                <h4>Season 1</h4>
-                <h4>Season 2</h4>
-                <h4>Season 3</h4>
-                <h4>Season 4</h4>
-                <h4>Season 5</h4>
-                <h4>Season 6</h4>
+                <h4 className="SeasonsHover">Season 1</h4>
+                <h4 className="SeasonsHover">Season 2</h4>
+                <h4 className="SeasonsHover">Season 3</h4>
+                <h4 className="SeasonsHover">Season 4</h4>
+                <h4 className="SeasonsHover">Season 5</h4>
+                <h4 className="SeasonsHover">Season 6</h4>
             </div>
         )
     }

@@ -46,6 +46,13 @@ export const _navStyle = styled.section `
         align-items: center;
     }
 
+    .navBarElement:hover{
+        color: goldenrod;
+    }
+
+    .SeasonsHover:hover{
+        color: goldenrod;
+    }
     .navBarElement{
         margin: 20px;
         font: bold;
@@ -57,6 +64,7 @@ export const _navStyle = styled.section `
         margin: 20px;
         font: bold;
         color: white;
+        cursor: pointer;
     }
 
     .seasonIcon{
@@ -121,6 +129,10 @@ export const _previousMovies = styled.section`
         text-decoration: none;
     }
 
+    .navBarElement:hover{
+        color: goldenrod;
+    }
+
     `
 
 export const _currentMovie = styled.section`
@@ -133,12 +145,8 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
-<<<<<<< HEAD
-        word-spacing: 10px;
-=======
        
         
->>>>>>> origin/navBar
     }
 
     .currentMovieInfo{
@@ -160,6 +168,10 @@ export const _currentMovie = styled.section`
     .navBarElement{
         color: white;
         text-decoration: none;
+    }
+
+    .navBarElement:hover{
+        color: goldenrod;
     }
 `
 
