@@ -44,8 +44,16 @@ export const _nav_style = styled.section `
 `
 export const _previousMovies = styled.section`
     
+    text-align: center;
+    font-weight: bold;
     display: flex;
     margin: 20px;
+
+    .flexbox{
+        padding-top: 50px;
+        padding-left: 10px;
+        display: flexbox;
+    }
 
     .moviePreviousMovie{
         position: relative;
@@ -54,7 +62,7 @@ export const _previousMovies = styled.section`
 
     .movieCover{
         border-radius: 15px;
-      }
+    }
     
     .previousMovies{
         display: flex;
@@ -76,6 +84,12 @@ export const _previousMovies = styled.section`
       
     .moviePreviousMovie:hover .overlay{
         opacity: 0.8;
+    }
+
+    .title{
+        font-style: italic;
+        font-size: large;
+        font-weight: bolder;
     }
 
     `;
