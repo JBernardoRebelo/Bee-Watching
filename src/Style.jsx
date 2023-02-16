@@ -25,6 +25,7 @@ export const _previousMovies = styled.section`
     margin: 20px;
 
     .moviePreviousMovie{
+        position: relative;
         border: solid red;
         margin: 10px;
     }
@@ -38,6 +39,24 @@ export const _previousMovies = styled.section`
         border: solid red;
         display: flex;
         margin: 20px;
+    }
+
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 89px;
+        border-radius: 15px;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+        background: black;
+        cursor: pointer;
+      }
+      
+    .moviePreviousMovie:hover .overlay{
+        opacity: 0.8;
     }
 
     `;

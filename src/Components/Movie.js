@@ -42,8 +42,14 @@ function Movie({isCurrent}){
                 {Info.map((item, index) => {
                 return(
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                        <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
-                        <p classname="title">{item.title}</p>
+                
+                            <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
+                            <div className="overlay">
+                                <p classname="title">{item.title}</p>
+                                <p>{item.genres}</p>
+                                <p>{item.duration}</p>
+                            </div>
+
                         <img src={item.profilePic} height={30} width={30} alt="profile"/>
                         <p>{item.moviePicker}</p>
                     </div>        
