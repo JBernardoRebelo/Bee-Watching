@@ -17,7 +17,25 @@ export const _App = styled.section`
     }
 
 `
+export const _nav_style = styled.section `
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 30;
 
+    .img_style{
+        position: absolute;
+        top: 0;
+        left: 100px;
+    }
+
+    .opt_Bar{
+        position: absolute;
+        top: 20;
+        right: 0;
+    }
+`
 export const _previousMovies = styled.section`
     
     display: flex;
@@ -25,7 +43,6 @@ export const _previousMovies = styled.section`
 
     .moviePreviousMovie{
         position: relative;
-        border: solid red;
         margin: 10px;
     }
 

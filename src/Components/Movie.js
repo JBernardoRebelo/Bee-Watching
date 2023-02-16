@@ -16,7 +16,6 @@ import { _currentMovie } from "../Style";
 function Movie({isCurrent}){
 
     const [listIndex, setListIndex] = useState(0);
-    const [ShowInfo, setShowInfo] = useState(false);
     
     const setCurrentMovie= (index)=>{ setListIndex(index)
         console.log(index)
