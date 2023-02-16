@@ -17,7 +17,31 @@ export const _App = styled.section`
     }
 
 `
+export const _nav_style = styled.section `
+    border: solid red;
+    padding: 30;
 
+    .img_style{
+        border: solid red;
+        position: absolute;
+        top: 0px;
+        left: 100px;
+    }
+
+    .opt_Bar{
+        border: solid red;
+        position: absolute;
+        top: 0;
+        right: 10px;
+        display: flex;
+    }
+
+    .links{
+        border: solid red;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+`
 export const _previousMovies = styled.section`
     
     text-align: center;
@@ -84,7 +108,7 @@ export const _currentMovie = styled.section`
 
     .currentMovieInfo{
         margin: 20px;
-        font-size:x-large;
+        font-size:large;
     }
 
     .movieCover{
