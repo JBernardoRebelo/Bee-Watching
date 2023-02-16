@@ -47,6 +47,13 @@ export const _navStyle = styled.section `
         align-items: center;
     }
 
+    .navBarElement:hover{
+        color: rgb(240, 255, 36);
+    }
+
+    .SeasonsHover:hover{
+        color: rgb(240, 255, 36);
+    }
     .navBarElement{
         margin: 20px;
         font: bold;
@@ -58,6 +65,7 @@ export const _navStyle = styled.section `
         margin: 20px;
         font: bold;
         color: white;
+        cursor: pointer;
     }
 
     .seasonIcon{
@@ -98,7 +106,7 @@ export const _previousMovies = styled.section`
         top: 0;
         left: 0;
         right: 0;
-        bottom: 89px;
+        bottom: 110px;
         border-radius: 15px;
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
@@ -122,6 +130,14 @@ export const _previousMovies = styled.section`
         text-decoration: none;
     }
 
+    .navBarElement:hover{
+        color: rgb(240, 255, 36);
+    }
+
+    .moviePicker{
+        margin: 20px;
+    }
+
     `
 
 export const _currentMovie = styled.section`
@@ -134,7 +150,6 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
-        word-spacing: 10px;
     }
 
     .currentMovieInfo{
@@ -156,6 +171,10 @@ export const _currentMovie = styled.section`
     .navBarElement{
         color: white;
         text-decoration: none;
+    }
+
+    .navBarElement:hover{
+        color: rgb(240, 255, 36);
     }
 `
 

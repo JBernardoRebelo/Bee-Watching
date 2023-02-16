@@ -92,8 +92,10 @@ function Movie(){
                                 </div>
                             </div>
                         </div>
-                        <img src={item.profilePic} height={30} width={30} alt="profile"/>
-                        <p>{item.moviePicker}</p>
+                        <div className="moviePicker">
+                            <img src={item.profilePic} height={30} width={30} alt="profile"/>
+                            <p>{item.moviePicker}</p>
+                        </div>
                     </div>        
                 )
                 })}
