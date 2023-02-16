@@ -28,7 +28,8 @@ const Info = [
         duration: "2h 58m",
         rate: 8.4,
         rateRT: "75%",
-        rateMT: 68
+        rateMT: 68,
+        trailer: "https://www.youtube.com/watch?v=wj0I8xVTV18"
     },
     {
         id:  2,
@@ -41,7 +42,8 @@ const Info = [
         duration: "1h 49m",
         rate: 7.9,
         rateRT: "92%",
-        rateMT: 84
+        rateMT: 84,
+        trailer: "https://www.youtube.com/watch?v=2VT2apoX90o"
     },
     {
         id:  3,
@@ -54,7 +56,8 @@ const Info = [
         duration: "2h 10m",
         rate: 8.6,
         rateRT: "91%",
-        rateMT: 79
+        rateMT: 79,
+        trailer: "https://www.youtube.com/watch?v=dcUOO4Itgmw"
     },
     {
         id:  4,
@@ -66,7 +69,8 @@ const Info = [
         genres: "Biography, Drama, Thriller, War",
         duration: "1h 54m",
         rate: 8.0,
-        rateRT: 71
+        rateRT: 71,
+        trailer: "https://www.youtube.com/watch?v=nuPZUUED5uk"
     },
     {
         id:  5,
@@ -79,7 +83,8 @@ const Info = [
         duration: "2h 29m",
         rate: 8.0,
         rateRT: "88%",
-        rateMT: 79
+        rateMT: 79,
+        trailer: "https://www.youtube.com/watch?v=0VGD_jLyE9Y"
     },
     {
         id:  6,
@@ -92,7 +97,8 @@ const Info = [
         duration: "1h 26m",
         rate: 5.0,
         rateRT: "9%",
-        rateMT: 20
+        rateMT: 20,
+        trailer: "https://www.youtube.com/watch?v=J50vA5VLR6k"
     },
     {
         id:  7,
@@ -105,7 +111,8 @@ const Info = [
         duration: "2h 50m",
         rate: 8.4,
         rateRT: "100%",
-        rateMT: 67
+        rateMT: 67,
+        trailer: "https://www.youtube.com/watch?v=K0eDlFX9GMc"
     },
     {
         id:  8,
@@ -118,7 +125,8 @@ const Info = [
         duration: "2h 49m",
         rate: 8.6,
         rateRT: "72%",
-        rateMT: 74
+        rateMT: 74,
+        trailer: "https://www.youtube.com/watch?v=Hd45707pEDI"
     },
     {
         id:  9,
@@ -130,7 +138,8 @@ const Info = [
         genres: "Comedy, Crime, Drama, Mystery, Thriller",
         duration: "2h 10m",
         rate: 7.9,
-        rateRT: 82
+        rateRT: 82,
+        trailer: "https://www.youtube.com/watch?v=xi-1NchUqMA"
     },
     {
         id:  10,
@@ -143,7 +152,8 @@ const Info = [
         duration: "2h",
         rate: 8.4,
         rateRT: "82%",
-        rateMT: 77
+        rateMT: 77,
+        trailer: "https://www.youtube.com/watch?v=vdQfLoMh1N0"
     },
     {
         id:  11,
@@ -156,7 +166,8 @@ const Info = [
         duration: "2h 18m",
         rate: 8.2,
         rateRT: "68%",
-        rateMT: 63
+        rateMT: 63,
+        trailer: "https://www.youtube.com/watch?v=v8yrZSkKxTA"
     },
     {
         id:  12,
@@ -169,7 +180,8 @@ const Info = [
         duration: "1h 39m",
         rate: 3.6,
         rateRT: "26%",
-        rateMT: 9
+        rateMT: 9,
+        trailer: "https://www.youtube.com/watch?v=9-dIdFXeFhs"
     },
     {
         id:  13,
@@ -182,7 +194,8 @@ const Info = [
         duration: "1h 15m",
         rate: 5.0,
         rateRT: "61%",
-        rateMT: 100
+        rateMT: 100,
+        trailer: "https://www.youtube.com/watch?v=7Nyb0GqAjKM"
     },
     {
         id:  14,
@@ -195,7 +208,8 @@ const Info = [
         duration: "1h 39m",
         rate: 7.7,
         rateRT: "80%",
-        rateMT: 83
+        rateMT: 83,
+        trailer: "https://www.youtube.com/watch?v=uk2DeTet98o"
     },
     {
         id:  15,
@@ -208,7 +222,8 @@ const Info = [
         duration: "1h 27m",
         rate: 3.3,
         rateRT: "0%",
-        rateMT: 100
+        rateMT: 100,
+        trailer: "https://www.youtube.com/watch?v=slyh9Lmy-2w"
     }
 ]   
 

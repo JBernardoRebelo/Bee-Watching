@@ -52,7 +52,7 @@ function Movie({isCurrent}){
                         </div>
                         <div>
                             <img src={img_5} height={40} width={40} alt="trailer icon"/>
-                            <_par>Trailer</_par>
+                            <a href={Info[listIndex].trailer}><_par>Trailer</_par></a>
                         </div>
                     </div>
                     <div>
