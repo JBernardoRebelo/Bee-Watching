@@ -16,6 +16,11 @@ export const _App = styled.section`
         left: 0px;
     }
 
+    .linkStyle{
+        text-decoration: none;
+        color: white;
+    }
+
 `
 export const _navStyle = styled.section `
     
@@ -32,7 +37,7 @@ export const _navStyle = styled.section `
     }
     
     .seasonLayout{
-        position: fixed;
+        position: absolute;
         margin-left: 20px;
     }
 
@@ -139,6 +144,7 @@ export const _currentMovie = styled.section`
         font-style: italic;
         font-size: xx-large;
         font-weight: bolder;
+        text-shadow: 2px 2px #1117;
     }
 `
 

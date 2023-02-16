@@ -52,7 +52,7 @@ function Movie(){
                         </div>
                         <div>
                             <img src={img_5} height={30} width={30} alt="trailer icon"/>
-                            <a href={Info[listIndex].trailer}><_par2>Trailer</_par2></a>
+                            <a className="linkStyle" href={Info[listIndex].trailer}><_par2>Trailer</_par2></a>
                         </div>
                     </div>
                     <div>
@@ -74,7 +74,7 @@ function Movie(){
                             <div>
                                 <div>
                                     <img src={img_5} height={20} width={20} alt="trailer icon"/>
-                                    <a href={Info[listIndex].trailer}><_par>Trailer</_par></a>
+                                    <a className="linkStyle" href={Info[listIndex].trailer}><_par>Trailer</_par></a>
                                 </div>
                                 <div className="flexbox">
                                     <div>
