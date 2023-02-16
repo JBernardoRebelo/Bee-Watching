@@ -81,8 +81,8 @@ export const _previousMovies = styled.section`
     margin: 20px;
 
     .flexbox{
-        padding-top: 40px;
-        padding-left: 10px;
+        padding-top: 20px;
+        padding-left: 5px;
         margin-left: 10px;
         display: flexbox;
     }
@@ -106,7 +106,7 @@ export const _previousMovies = styled.section`
         top: 0;
         left: 0;
         right: 0;
-        bottom: 110px;
+        bottom: 115px;
         border-radius: 15px;
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
@@ -121,8 +121,6 @@ export const _previousMovies = styled.section`
 
     .title{
         font-style: italic;
-        font-size: large;
-        font-weight: bolder;
     }
 
     .navBarElement{

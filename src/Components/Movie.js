@@ -68,12 +68,12 @@ function Movie(){
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
                         <img src={item.coverImg} className="movieCover" height={200} width={134} alt="Movie Cover"/>
                         <div className="overlay">
-                            <p classname="title">{item.title}</p>
+                            <p className="title">{item.title}</p>
                             <p>{item.genres}</p>
                             <p>{item.duration}</p>
                             <div>
                                 <div>
-                                    <img src={img_5} height={20} width={20} alt="trailer icon"/>
+                                    <img src={img_5} height={15} width={15} alt="trailer icon"/>
                                     <a href={item.trailer} className="navBarElement"><_par>Trailer</_par></a>
                                 </div>
                                 <div className="flexbox">
