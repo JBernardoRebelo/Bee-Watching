@@ -15,7 +15,7 @@ import { _par } from "../Style";
 // Movie object
 // creates movie instance from info
 
-function Movie({isCurrent}){
+function Movie(){
 
     const [listIndex, setListIndex] = useState(0);
     

@@ -69,7 +69,8 @@ const Info = [
         genres: "Biography, Drama, Thriller, War",
         duration: "1h 54m",
         rate: 8.0,
-        rateRT: 71,
+        rateRT: "90%",
+        rateMT: 71, 
         trailer: "https://www.youtube.com/watch?v=nuPZUUED5uk"
     },
     {
@@ -138,7 +139,8 @@ const Info = [
         genres: "Comedy, Crime, Drama, Mystery, Thriller",
         duration: "2h 10m",
         rate: 7.9,
-        rateRT: 82,
+        rateRT: "97%",
+        rateMT: 82,
         trailer: "https://www.youtube.com/watch?v=xi-1NchUqMA"
     },
     {
