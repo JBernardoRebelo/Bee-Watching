@@ -15,10 +15,9 @@ import { _par } from "../Style";
 // Movie object
 // creates movie instance from info
 
-function Movie({isCurrent}){
+function Movie(){
 
     const [listIndex, setListIndex] = useState(0);
-    const [ShowInfo, setShowInfo] = useState(false);
     
     const setCurrentMovie= (index)=>{ setListIndex(index)
         console.log(index)
