@@ -108,7 +108,12 @@ export const _previousMovies = styled.section`
         font-weight: bolder;
     }
 
-    `;
+    .navBarElement{
+        color: white;
+        text-decoration: none;
+    }
+
+    `
 
 export const _currentMovie = styled.section`
 
@@ -120,7 +125,7 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
-        word-spacing: 10px;
+       
         
     }
 
@@ -138,6 +143,11 @@ export const _currentMovie = styled.section`
         font-style: italic;
         font-size: xx-large;
         font-weight: bolder;
+    }
+
+    .navBarElement{
+        color: white;
+        text-decoration: none;
     }
 `
 

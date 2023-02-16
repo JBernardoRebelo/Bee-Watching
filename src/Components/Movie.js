@@ -52,7 +52,7 @@ function Movie(){
                         </div>
                         <div>
                             <img src={img_5} height={30} width={30} alt="trailer icon"/>
-                            <a href={Info[listIndex].trailer}><_par2>Trailer</_par2></a>
+                            <a href={Info[listIndex].trailer} className="navBarElement"><_par2>Trailer</_par2></a>
                         </div>
                     </div>
                     <div>
@@ -74,20 +74,20 @@ function Movie(){
                             <div>
                                 <div>
                                     <img src={img_5} height={20} width={20} alt="trailer icon"/>
-                                    <a href={Info[listIndex].trailer}><_par>Trailer</_par></a>
+                                    <a href={item.trailer} className="navBarElement"><_par>Trailer</_par></a>
                                 </div>
                                 <div className="flexbox">
                                     <div>
                                         <img src={img_1} height={20} width={20} alt="imdb icon"/>
-                                        <_par>{Info[listIndex].rate}</_par>
+                                        <_par>{item.rate}</_par>
                                     </div>
                                     <div>
                                         <img src={img_3} height={20} width={20} alt="rotten tomatoes icon"/>
-                                        <_par>{Info[listIndex].rateRT}</_par>
+                                        <_par>{item.rateRT}</_par>
                                     </div>
                                     <div>
                                         <img src={img_4} height={20} width={20} alt="metacritic icon"/>
-                                        <_par>{Info[listIndex].rateMT}</_par>
+                                        <_par>{item.rateMT}</_par>
                                     </div>
                                 </div>
                             </div>
