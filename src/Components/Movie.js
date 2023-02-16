@@ -11,6 +11,7 @@ import img_5 from '../Images/icon_play.png'
 import { _previousMovies } from "../Style";
 import { _currentMovie } from "../Style";
 import { _par } from "../Style";
+import { _par2 } from "../Style";
 
 // Movie object
 // creates movie instance from info
@@ -27,35 +28,35 @@ function Movie(){
         <div>
             <_currentMovie>
                 {/* SHOWCASE ALL INFO */}
-                {/* <img src={Info[listIndex].coverImg} className="movieCover" height={600} width={400} alt="Movie Cover"/> */}
+                {/* <img src={Info[listIndex].coverImg} className="movieCover" height={600} width={300} alt="Movie Cover"/> */}
                 <div className="currentMovieInfo">
                     <p className="title">{Info[listIndex].title}</p>
                     <div className="flex">
                         <_par>{Info[listIndex].year}</_par>
                         <_par>{Info[listIndex].genres}</_par>
-                        <img src={img_2} height={30} width={30} alt="clock icon"/>
-                        <_par>{Info[listIndex].duration}</_par>
+                        <img src={img_2} height={12} width={12} alt="clock icon"/>
+                        {Info[listIndex].duration}
                     </div>
                     <div className="flex">
                         <div>
-                            <img src={img_1} height={40} width={40} alt="imdb icon"/>
-                            <_par>{Info[listIndex].rate}</_par>
+                            <img src={img_1} height={30} width={30} alt="imdb icon"/>
+                            <_par2>{Info[listIndex].rate}</_par2>
                         </div>
                         <div>
-                            <img src={img_3} height={40} width={40} alt="rotten tomatoes icon"/>
-                            <_par>{Info[listIndex].rateRT}</_par>
+                            <img src={img_3} height={30} width={30} alt="rotten tomatoes icon"/>
+                            <_par2>{Info[listIndex].rateRT}</_par2>
                         </div>
                         <div>
-                            <img src={img_4} height={40} width={40} alt="metacritic icon"/>
-                            <_par>{Info[listIndex].rateMT}</_par>
+                            <img src={img_4} height={30} width={30} alt="metacritic icon"/>
+                            <_par2>{Info[listIndex].rateMT}</_par2>
                         </div>
                         <div>
-                            <img src={img_5} height={40} width={40} alt="trailer icon"/>
-                            <a href={Info[listIndex].trailer}><_par>Trailer</_par></a>
+                            <img src={img_5} height={30} width={30} alt="trailer icon"/>
+                            <a href={Info[listIndex].trailer}><_par2>Trailer</_par2></a>
                         </div>
                     </div>
                     <div>
-                        <img src={Info[listIndex].profilePic} height={40} width={40} alt="profile"/>
+                        <img src={Info[listIndex].profilePic} height={30} width={30} alt="profile"/>
                         <p>{Info[listIndex].moviePicker}</p>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ function Movie(){
                 {Info.map((item, index) => {
                 return(
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                        <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
+                        <img src={item.coverImg} className="movieCover" height={200} width={134} alt="Movie Cover"/>
                         <div className="overlay">
                             <p classname="title">{item.title}</p>
                             <p>{item.genres}</p>

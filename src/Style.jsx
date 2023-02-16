@@ -19,7 +19,7 @@ export const _App = styled.section`
 `
 export const _nav_style = styled.section `
     border: solid red;
-    padding: 30;
+    padding: 3%;
 
     .img_style{
         border: solid red;
@@ -50,7 +50,8 @@ export const _previousMovies = styled.section`
     margin: 20px;
 
     .flexbox{
-        padding-top: 50px;
+        padding-top: 40px;
+        padding-left: 10px;
         display: flexbox;
     }
 
@@ -79,6 +80,8 @@ export const _previousMovies = styled.section`
         transition: opacity 0.4s ease-in-out;
         background: black;
         cursor: pointer;
+        font-size: 10px;
+
       }
       
     .moviePreviousMovie:hover .overlay{
@@ -103,12 +106,14 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
-        word-spacing: 5px;
+        word-spacing: 10px;
+        
     }
 
     .currentMovieInfo{
         margin: 20px;
-        font-size:large;
+        font-size: 15px;
+
     }
 
     .movieCover{
@@ -124,7 +129,13 @@ export const _currentMovie = styled.section`
 
 export const _par = styled.section`
 
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+`
+export const _par2 = styled.section`
+
+    padding-left: 30px;
+    padding-right: 30px;
 
 `
