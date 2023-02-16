@@ -20,22 +20,18 @@ export const _App = styled.section`
 
 export const _previousMovies = styled.section`
     
-    border: solid red;
     display: flex;
     margin: 20px;
 
     .moviePreviousMovie{
-        border: solid red;
         margin: 10px;
     }
 
     .movieCover{
-        border: red;
         border-radius: 15px;
       }
     
     .previousMovies{
-        border: solid red;
         display: flex;
         margin: 20px;
     }
@@ -44,10 +40,15 @@ export const _previousMovies = styled.section`
 
 export const _currentMovie = styled.section`
 
-    border: solid red;
-    margin: 20px;
+    margin: 50px;
     font-style: italic;
-    display: flex;
+    text-align: center;
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-left: 10px;
+    }
 
     .currentMovieInfo{
         margin: 20px;
@@ -55,7 +56,6 @@ export const _currentMovie = styled.section`
     }
 
     .movieCover{
-        border: red;
         border-radius: 15px;
     }
 `

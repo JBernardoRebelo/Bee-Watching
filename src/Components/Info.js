@@ -26,7 +26,9 @@ const Info = [
         profilePic: img_16,
         genres: "Biography, Drama, History, War",
         duration: "2h 58m",
-        rate: 8.4
+        rate: 8.4,
+        rateRT: "75%",
+        rateMT: 68
     },
     {
         id:  2,
@@ -37,7 +39,9 @@ const Info = [
         profilePic: img_16,
         genres: "Action, Drama, Sci-Fi, Thriller",
         duration: "1h 49m",
-        rate: 7.9
+        rate: 7.9,
+        rateRT: "92%",
+        rateMT: 84
     },
     {
         id:  3,
@@ -48,7 +52,9 @@ const Info = [
         profilePic: img_16,
         genres: "Crime, Drama",
         duration: "2h 10m",
-        rate: 8.6
+        rate: 8.6,
+        rateRT: "91%",
+        rateMT: 79
     },
     {
         id:  4,
@@ -59,7 +65,8 @@ const Info = [
         profilePic: img_16,
         genres: "Biography, Drama, Thriller, War",
         duration: "1h 54m",
-        rate: 8.0
+        rate: 8.0,
+        rateRT: 71
     },
     {
         id:  5,
@@ -70,7 +77,9 @@ const Info = [
         profilePic: img_16,
         genres: "Drama, Mistery, Thriller",
         duration: "2h 29m",
-        rate: 8.0
+        rate: 8.0,
+        rateRT: "88%",
+        rateMT: 79
     },
     {
         id:  6,
@@ -81,7 +90,9 @@ const Info = [
         profilePic: img_16,
         genres: "Comedy, Fantasy, Horror",
         duration: "1h 26m",
-        rate: 5.0
+        rate: 5.0,
+        rateRT: "9%",
+        rateMT: 20
     },
     {
         id:  7,
@@ -92,7 +103,9 @@ const Info = [
         profilePic: img_16,
         genres: "Comedy, Drama",
         duration: "2h 50m",
-        rate: 8.4
+        rate: 8.4,
+        rateRT: "100%",
+        rateMT: 67
     },
     {
         id:  8,
@@ -103,7 +116,9 @@ const Info = [
         profilePic: img_16,
         genres: "Adventure, Drama, Sci-Fi",
         duration: "2h 49m",
-        rate: 8.6
+        rate: 8.6,
+        rateRT: "72%",
+        rateMT: 74
     },
     {
         id:  9,
@@ -114,7 +129,8 @@ const Info = [
         profilePic: img_16,
         genres: "Comedy, Crime, Drama, Mystery, Thriller",
         duration: "2h 10m",
-        rate: 7.9
+        rate: 7.9,
+        rateRT: 82
     },
     {
         id:  10,
@@ -125,7 +141,9 @@ const Info = [
         profilePic: img_16,
         genres: "Action, Drama, Mystery, Thriller",
         duration: "2h",
-        rate: 8.4
+        rate: 8.4,
+        rateRT: "82%",
+        rateMT: 77
     },
     {
         id:  11,
@@ -136,7 +154,9 @@ const Info = [
         profilePic: img_16,
         genres: "Mystery, Thriller",
         duration: "2h 18m",
-        rate: 8.2
+        rate: 8.2,
+        rateRT: "68%",
+        rateMT: 63
     },
     {
         id:  12,
@@ -147,18 +167,22 @@ const Info = [
         profilePic: img_16,
         genres: "Drama",
         duration: "1h 39m",
-        rate: 3.6
+        rate: 3.6,
+        rateRT: "26%",
+        rateMT: 9
     },
     {
         id:  13,
-        title: "Velocispastor",
+        title: "The Velocipastor",
         coverImg: img_13,
         year: 2018,
         moviePicker: "Vegui",
         profilePic: img_16,
         genres: "Action, Adventure, Comedy, Fantasy, Horror, Sci-Fi, Thriller",
         duration: "1h 15m",
-        rate: 5.0
+        rate: 5.0,
+        rateRT: "61%",
+        rateMT: 100
     },
     {
         id:  14,
@@ -169,7 +193,9 @@ const Info = [
         profilePic: img_16,
         genres: "Animation, Drama, Fantasy",
         duration: "1h 39m",
-        rate: 7.7
+        rate: 7.7,
+        rateRT: "80%",
+        rateMT: 83
     },
     {
         id:  15,
@@ -180,7 +206,9 @@ const Info = [
         profilePic: img_16,
         genres: "Action, Adventure, Horror, Thriller",
         duration: "1h 27m",
-        rate: 3.3
+        rate: 3.3,
+        rateRT: "0%",
+        rateMT: 100
     }
 ]   
 
