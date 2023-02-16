@@ -65,14 +65,32 @@ function Movie(){
                 {Info.map((item, index) => {
                 return(
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                
-                            <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
-                            <div className="overlay">
-                                <p classname="title">{item.title}</p>
-                                <p>{item.genres}</p>
-                                <p>{item.duration}</p>
+                        <img src={item.coverImg} className="movieCover" height={300} width={200} alt="Movie Cover"/>
+                        <div className="overlay">
+                            <p classname="title">{item.title}</p>
+                            <p>{item.genres}</p>
+                            <p>{item.duration}</p>
+                            <div>
+                                <div>
+                                    <img src={img_5} height={20} width={20} alt="trailer icon"/>
+                                    <a href={Info[listIndex].trailer}><_par>Trailer</_par></a>
+                                </div>
+                                <div className="flexbox">
+                                    <div>
+                                        <img src={img_1} height={20} width={20} alt="imdb icon"/>
+                                        <_par>{Info[listIndex].rate}</_par>
+                                    </div>
+                                    <div>
+                                        <img src={img_3} height={20} width={20} alt="rotten tomatoes icon"/>
+                                        <_par>{Info[listIndex].rateRT}</_par>
+                                    </div>
+                                    <div>
+                                        <img src={img_4} height={20} width={20} alt="metacritic icon"/>
+                                        <_par>{Info[listIndex].rateMT}</_par>
+                                    </div>
+                                </div>
                             </div>
-
+                        </div>
                         <img src={item.profilePic} height={30} width={30} alt="profile"/>
                         <p>{item.moviePicker}</p>
                     </div>        
