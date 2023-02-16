@@ -5,9 +5,8 @@ export default function Draw()
 {
     return(
         <div>
-            <h1>I am in the Draw page</h1>
-            <Link to="/">Home</Link>
-        </div>
-        
+            <h1>Draw page</h1>
+            <h2><Link className="linkStyle" to="/">Home</Link></h2>
+        </div> 
     )
 }

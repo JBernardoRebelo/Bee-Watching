@@ -38,7 +38,8 @@ export const _navStyle = styled.section `
     
     .seasonLayout{
         position: absolute;
-        margin-left: 20px;
+        margin-top: -20px;
+        margin-left: 25px;
     }
 
     .navBarClick{
@@ -133,12 +134,7 @@ export const _currentMovie = styled.section`
         margin: 50px;
         display: flexbox;
         justify-content: center;
-<<<<<<< HEAD
         word-spacing: 10px;
-=======
-       
-        
->>>>>>> origin/navBar
     }
 
     .currentMovieInfo{
