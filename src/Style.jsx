@@ -27,7 +27,6 @@ export const _previousMovies = styled.section`
 
     .flexbox{
         padding-top: 50px;
-        padding-left: 10px;
         display: flexbox;
     }
 
