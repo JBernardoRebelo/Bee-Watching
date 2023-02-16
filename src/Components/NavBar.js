@@ -13,7 +13,7 @@ export default function NavBar(){
     let Seasons;
     if(showSeason){
         Seasons= (
-            <div>
+            <div className="seasonLayout">
                 <h4>Season 1</h4>
                 <h4>Season 2</h4>
                 <h4>Season 3</h4>

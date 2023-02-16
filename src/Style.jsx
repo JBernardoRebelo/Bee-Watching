@@ -21,7 +21,6 @@ export const _navStyle = styled.section `
     
     display: flexbox;
     text-align: center;
-    border: solid red;
     padding: 3%;
     justify-content: space-between;
 
@@ -32,6 +31,11 @@ export const _navStyle = styled.section `
         font-weight: bolder;
     }
     
+    .seasonLayout{
+        position: fixed;
+        margin-left: 20px;
+    }
+
     .navBarClick{
         display: flexbox;
         align-items: center;
@@ -95,7 +99,6 @@ export const _previousMovies = styled.section`
         background: black;
         cursor: pointer;
         font-size: 10px;
-
       }
       
     .moviePreviousMovie:hover .overlay{
@@ -121,13 +124,11 @@ export const _currentMovie = styled.section`
         display: flexbox;
         justify-content: center;
         word-spacing: 10px;
-        
     }
 
     .currentMovieInfo{
         margin: 20px;
         font-size: 15px;
-
     }
 
     .movieCover{
