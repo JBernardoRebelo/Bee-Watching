@@ -26,7 +26,12 @@
   scroll-behavior: smooth;
   overflow: auto;
   background-image: linear-gradient(-90deg, black, transparent);
+  background: blue;
 }
+
+/* .img_style::-webkit-scrollbar{
+  
+} */
 
 /* .previousMovies{
   border: solid red;

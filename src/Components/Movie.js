@@ -63,11 +63,11 @@ function Movie(){
             </_currentMovie>
             <h2>Previous Movies</h2>
             <_previousMovies>
-                
+
                 {Info.map((item, index) => {
                 return(
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                        <img src={item.coverImg} className="movieCover" height={200} width={134} alt="Movie Cover"/>
+                        <img src={item.coverImg} className="movieCover" height={250} width={167} alt="Movie Cover"/>
                         <div className="overlay">
                             <p className="title">{item.title}</p>
                             <p>{item.genres}</p>
