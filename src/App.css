@@ -23,6 +23,7 @@
   transition-delay: 0s, 0s, 0.3s;
   scroll-behavior: smooth;
   overflow: auto;
+  background-image: linear-gradient(-90deg, black, transparent);
 }
 
 /* .previousMovies{

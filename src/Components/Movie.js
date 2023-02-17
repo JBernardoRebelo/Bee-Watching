@@ -63,6 +63,7 @@ function Movie(){
             </_currentMovie>
             <h2>Previous Movies</h2>
             <_previousMovies>
+                
                 {Info.map((item, index) => {
                 return(
                     <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>

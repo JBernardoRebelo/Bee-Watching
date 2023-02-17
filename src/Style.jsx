@@ -99,6 +99,14 @@ export const _previousMovies = styled.section`
     margin: 20px;
     scroll-behavior: smooth;
     overflow: auto;
+
+    ::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-indez: 99;
+        background-image: linear-gradient(-90deg, black, transparent);
+    }
     
 
     .flexbox{
