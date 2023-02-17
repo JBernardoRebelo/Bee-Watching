@@ -15,8 +15,16 @@
   position: absolute;
   top: 30px;
   left: 30px;
-  color: goldenrod
-  
+  color: gold;
+  display: contents;
+  height:  0;
+  visibility: visible;
+  transform: translateY(-3em);
+  z-index: -1;
+  transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+  transition-delay: 0s, 0s, 0.3s;
+  scroll-behavior: smooth;
+  overflow: auto;
 }
 
 /* .previousMovies{

@@ -37,8 +37,12 @@ export const _navStyle = styled.section `
     }
     
     .seasonLayout{
+        visibility: hidden;
         position: absolute;
-        margin-top: -20px;
+        transform: translateY(-3em);
+        z-index: 0;
+        transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+        margin-top: -2px;
         margin-left: 25px;
     }
 
@@ -54,6 +58,7 @@ export const _navStyle = styled.section `
     .SeasonsHover:hover{
         color: rgb(240, 255, 36);
     }
+
     .navBarElement{
         margin: 20px;
         font: bold;
@@ -62,11 +67,24 @@ export const _navStyle = styled.section `
     }
 
     .clickSeasonSyle{
+        position: relative;
+        display: inline-block;
+    }
+    .SeasonFit{
         margin: 20px;
         font: bold;
         color: white;
         cursor: pointer;
     }
+
+    .clickSeasonSyle:hover .seasonLayout{
+        visibility: visible;
+        transform: translateY(0);
+        transition-delay: 0s, 0s, 0.3s;
+        z-index: 1;
+    }
+
+
 
     .seasonIcon{
         margin-bottom: -25px;
@@ -79,6 +97,9 @@ export const _previousMovies = styled.section`
     font-weight: bold;
     display: flex;
     margin: 20px;
+    scroll-behavior: smooth;
+    overflow: auto;
+    
 
     .flexbox{
         padding-top: 20px;
@@ -90,6 +111,7 @@ export const _previousMovies = styled.section`
     .moviePreviousMovie{
         position: relative;
         margin: 10px;
+        
     }
 
     .movieCover{
