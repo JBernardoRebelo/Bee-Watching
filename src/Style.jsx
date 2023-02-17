@@ -24,10 +24,10 @@ export const _App = styled.section`
 `
 export const _navStyle = styled.section `
     
-    display: flexbox;
+    display: flex;
     text-align: center;
     padding: 3%;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .seasonStyle{
         margin-top: -35px;
