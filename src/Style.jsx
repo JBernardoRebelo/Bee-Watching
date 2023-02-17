@@ -122,7 +122,7 @@ export const _previousMovies = styled.section`
         z-index: 99;
         height: 62%;
         width: 150px;
-        background-image: linear-gradient(-90deg, transparent);
+        background-image: linear-gradient(-90deg, #272d2f, transparent);
     }
     
     .listStyle::before{
@@ -133,7 +133,7 @@ export const _previousMovies = styled.section`
         z-index: 99;
         height: 62%;
         width: 150px;
-        background-image: linear-gradient(90deg, black, transparent);
+        background-image: linear-gradient(90deg, #272d2f, transparent);
     }
 
     .flexbox{
@@ -193,10 +193,6 @@ export const _previousMovies = styled.section`
         margin: 20px;
     }
 
-    .portraits{
-        border-radius: 50%
-    }
-
     `
 
 export const _currentMovie = styled.section`
@@ -234,10 +230,6 @@ export const _currentMovie = styled.section`
 
     .navBarElement:hover{
         color: rgb(240, 255, 36);
-    }
-    
-    .portraits{
-        border-radius: 50%
     }
 `
 
