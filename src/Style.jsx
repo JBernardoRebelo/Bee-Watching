@@ -118,7 +118,7 @@ export const _previousMovies = styled.section`
         right: 100px;
         content: "";
         z-index: 99;
-        height: 62%;
+        height: 65%;
         width: 100px;
         background-image: linear-gradient(-90deg, #272d2f, transparent);
     }
@@ -129,7 +129,7 @@ export const _previousMovies = styled.section`
         left: 100;
         content: "";
         z-index: 99;
-        height: 62%;
+        height: 65%;
         width: 100px;
         background-image: linear-gradient(90deg, #272d2f, transparent);
     }
