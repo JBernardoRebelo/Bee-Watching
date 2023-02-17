@@ -1,5 +1,4 @@
 /* eslint-disable react/jsx-pascal-case */
-import React, { useState } from "react";
 
 import img_logo from '../Images/Bee_Watching_Logo.png';
 import season_icon from '../Images/icon_season.png';
@@ -12,7 +11,7 @@ export default function NavBar(){
    
     return(
         <_navStyle>
-            <div>
+            <div className='logoStyle'>
                 <img src={img_logo} height={80} width={300} alt="logo"/>
                 <p className="seasonStyle"> Season 2 - 2022</p>  
             </div>

@@ -1,4 +1,4 @@
-// Array containing all movies info
+// Movie Covers
 import img_1 from '../Images/Brave_Hearth.jpg'
 import img_2 from '../Images/Children_Men.jpg'
 import img_3 from '../Images/City_of_god.jpg'
@@ -14,8 +14,25 @@ import img_12 from '../Images/The_room.jpg'
 import img_13 from '../Images/Velocipastor.jpg'
 import img_14 from '../Images/Waking_life.jpg'
 import img_15 from '../Images/yeti.jpg'
-import img_16 from '../Images/profileIcon.png'
 
+// Portraits
+import portrait_alex from '../Images/Portraits/portrait_alex.png'
+import portrait_diogo from '../Images/Portraits/portrait_diogo.png'
+import portrait_eduarda from '../Images/Portraits/portrait_eduarda.png'
+import portrait_gripe from '../Images/Portraits/portrait_gripe.png'
+import portrait_ianis from '../Images/Portraits/portrait_ianis.png'
+import portrait_maguz from '../Images/Portraits/portrait_maguz.png'
+import portrait_marina from '../Images/Portraits/portrait_marina.png'
+import portrait_matinhos from '../Images/Portraits/portrait_matinhos.png'
+import portrait_minibix from '../Images/Portraits/portrait_minibix.png'
+import portrait_patrao from '../Images/Portraits/portrait_patrao.png'
+import portrait_pimentel from '../Images/Portraits/portrait_pimentel.png'
+import portrait_ramalho from '../Images/Portraits/portrait_ramalho.png'
+import portrait_rodnog from '../Images/Portraits/portrait_rodnog.png'
+import portrait_sergio from '../Images/Portraits/portrait_sergio.png'
+import portrait_vegui from '../Images/Portraits/portrait_vegui.png'
+
+// Array containing all movies info
 const Info = [
     {
         id:  1,
@@ -23,7 +40,7 @@ const Info = [
         coverImg: img_1,
         year: 1995,
         moviePicker: "Diogo Pinto",
-        profilePic: img_16,
+        profilePic: portrait_diogo,
         genres: "Biography, History, War",
         duration: "2h58m",
         rate: 8.4,
@@ -36,8 +53,8 @@ const Info = [
         title: "Children Of Men",
         coverImg: img_2,
         year: 2006,
-        moviePicker: "Unknown",
-        profilePic: img_16,
+        moviePicker: "Quim",
+        profilePic: portrait_maguz,
         genres: "Action, Sci-Fi, Thriller",
         duration: "1h49m",
         rate: 7.9,
@@ -51,7 +68,7 @@ const Info = [
         coverImg: img_3,
         year: 2002,
         moviePicker: "RodNog",
-        profilePic: img_16,
+        profilePic: portrait_rodnog,
         genres: "Crime, Drama",
         duration: "2h10m",
         rate: 8.6,
@@ -64,8 +81,8 @@ const Info = [
         title: "The Imitation Game",
         coverImg: img_4,
         year: 2014,
-        moviePicker: "Unknown",
-        profilePic: img_16,
+        moviePicker: "Conceição",
+        profilePic: portrait_patrao,
         genres: "Biography, Thriller, War",
         duration: "1h54m",
         rate: 8.0,
@@ -79,7 +96,7 @@ const Info = [
         coverImg:img_5,
         year: 2014,
         moviePicker: "Sérgio",
-        profilePic: img_16,
+        profilePic: portrait_sergio,
         genres: "Drama, Mistery, Thriller",
         duration: "2h29m",
         rate: 8.0,
@@ -93,7 +110,7 @@ const Info = [
         coverImg: img_6,
         year: 2013,
         moviePicker: "Ianis",
-        profilePic: img_16,
+        profilePic: portrait_ianis,
         genres: "Comedy, Fantasy, Horror",
         duration: "1h26m",
         rate: 5.0,
@@ -107,7 +124,7 @@ const Info = [
         coverImg: img_7,
         year: 2009,
         moviePicker: "Eduarda",
-        profilePic: img_16,
+        profilePic: portrait_eduarda,
         genres: "Comedy, Drama",
         duration: "2h50m",
         rate: 8.4,
@@ -121,7 +138,7 @@ const Info = [
         coverImg: img_8,
         year: 2014,
         moviePicker: "Minibix",
-        profilePic: img_16,
+        profilePic: portrait_minibix,
         genres: "Adventure, Drama, Sci-Fi",
         duration: "2h49m",
         rate: 8.6,
@@ -135,7 +152,7 @@ const Info = [
         coverImg: img_9,
         year: 2019,
         moviePicker: "Marina",
-        profilePic: img_16,
+        profilePic: portrait_marina,
         genres: "Comedy, Crime, Drama, Thriller",
         duration: "2h10m",
         rate: 7.9,
@@ -149,7 +166,7 @@ const Info = [
         coverImg: img_10,
         year: 2003,
         moviePicker: "Alex",
-        profilePic: img_16,
+        profilePic: portrait_alex,
         genres: "Action, Drama, Thriller",
         duration: "2h",
         rate: 8.4,
@@ -162,8 +179,8 @@ const Info = [
         title: "Shutter Island",
         coverImg: img_11,
         year: 2010,
-        moviePicker: "Unknown",
-        profilePic: img_16,
+        moviePicker: "Jocki",
+        profilePic: portrait_pimentel,
         genres: "Mystery, Thriller",
         duration: "2h18m",
         rate: 8.2,
@@ -177,7 +194,7 @@ const Info = [
         coverImg: img_12,
         year: 2003,
         moviePicker: "Ramalho",
-        profilePic: img_16,
+        profilePic: portrait_ramalho,
         genres: "Drama",
         duration: "1h39m",
         rate: 3.6,
@@ -191,7 +208,7 @@ const Info = [
         coverImg: img_13,
         year: 2018,
         moviePicker: "Vegui",
-        profilePic: img_16,
+        profilePic: portrait_vegui,
         genres: "Action, Comedy, Horror",
         duration: "1h15m",
         rate: 5.0,
@@ -205,7 +222,7 @@ const Info = [
         coverImg: img_14,
         year: 2001,
         moviePicker: "Gripe",
-        profilePic: img_16,
+        profilePic: portrait_gripe,
         genres: "Animation, Drama, Fantasy",
         duration: "1h39m",
         rate: 7.7,
@@ -219,7 +236,7 @@ const Info = [
         coverImg: img_15,
         year: 2008,
         moviePicker: "Matinhos",
-        profilePic: img_16,
+        profilePic: portrait_matinhos,
         genres: "Action, Horror, Thriller",
         duration: "1h27m",
         rate: 3.3,
