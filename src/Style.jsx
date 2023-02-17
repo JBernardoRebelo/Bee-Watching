@@ -21,18 +21,18 @@ export const _App = styled.section`
         color: white;
     }
 
+    .italic{
+        font-style: italic;
+    }
+
 `
-export const _navStyle = styled.section `
+export const _navStyle = styled.section`
     
     display: flex;
     text-align: center;
-    padding: 3%;
+    padding: 1%;
     justify-content: space-around;
-    margin-top: -20px;
-
-    .logoStyle{
-        
-    }
+    margin-top: -15px;
 
     .seasonStyle{
         margin-top: -35px;
@@ -89,8 +89,6 @@ export const _navStyle = styled.section `
         z-index: 1;
     }
 
-
-
     .seasonIcon{
         margin-bottom: -25px;
         margin-left: -10px;
@@ -101,44 +99,44 @@ export const _previousMovies = styled.section`
     text-align: center;
     font-weight: bold;
     display: flex;
-    margin: 20px;
+    margin: 10px;
     scroll-behavior: smooth;
     position: relative;
-
-
 
     .listStyle{
         width: fit-content;
         display: flex;
         scroll-behavior: smooth;
         overflow: auto;
+        margin-left: 100px;
+        margin-right: 100px;
     }
     
     .listStyle::after{
         position: absolute;
         top: 10px;
-        right: 0;
+        right: 100px;
         content: "";
         z-index: 99;
         height: 62%;
-        width: 150px;
-        background-image: linear-gradient(-90deg, black, transparent);
+        width: 100px;
+        background-image: linear-gradient(-90deg, #272d2f, transparent);
     }
     
     .listStyle::before{
         position: absolute;
         top: 10px;
-        left: 0;
+        left: 100;
         content: "";
         z-index: 99;
         height: 62%;
-        width: 150px;
-        background-image: linear-gradient(90deg, black, transparent);
+        width: 100px;
+        background-image: linear-gradient(90deg, #272d2f, transparent);
     }
 
     .flexbox{
-        padding-top: 60px;
-        padding-left: 20px;
+        padding-top: 30px;
+        padding-left: 10px;
         margin-left: 10px;
         display: flexbox;
     }
@@ -146,7 +144,6 @@ export const _previousMovies = styled.section`
     .moviePreviousMovie{
         position: relative;
         margin: 10px;
-        
     }
 
     .movieCover{
@@ -163,13 +160,13 @@ export const _previousMovies = styled.section`
         top: 0;
         left: 0;
         right: 0;
-        bottom: 115px;
+        bottom: 90px;
         border-radius: 15px;
         opacity: 0;
         transition: opacity 0.4s ease-in-out;
         background: black;
         cursor: pointer;
-        font-size: 12px;
+        font-size: 10px;
       }
       
     .moviePreviousMovie:hover .overlay{
@@ -190,23 +187,23 @@ export const _previousMovies = styled.section`
     }
 
     .moviePicker{
-        margin: 20px;
+        margin: 10px;
+        font-size: small;
     }
 
     .portraits{
-        border-radius: 50%
+        border-radius: 50%;
     }
 
     `
 
 export const _currentMovie = styled.section`
 
-    margin: 50px;
     text-align: center;
     font-weight: bold;
 
     .flex{
-        margin: 50px;
+        margin: 15px;
         display: flexbox;
         justify-content: center;
     }
@@ -222,7 +219,7 @@ export const _currentMovie = styled.section`
 
     .title{
         font-style: italic;
-        font-size: xx-large;
+        font-size: x-large;
         font-weight: bolder;
         text-shadow: 2px 2px #1117;
     }
@@ -235,9 +232,9 @@ export const _currentMovie = styled.section`
     .navBarElement:hover{
         color: rgb(240, 255, 36);
     }
-    
+
     .portraits{
-        border-radius: 50%
+        border-radius: 50%;
     }
 `
 
