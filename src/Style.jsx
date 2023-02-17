@@ -37,6 +37,7 @@ export const _navStyle = styled.section `
     }
     
     .seasonLayout{
+        visibility: hidden;
         position: absolute;
         margin-top: -20px;
         margin-left: 25px;
@@ -54,6 +55,7 @@ export const _navStyle = styled.section `
     .SeasonsHover:hover{
         color: rgb(240, 255, 36);
     }
+
     .navBarElement{
         margin: 20px;
         font: bold;
@@ -62,11 +64,21 @@ export const _navStyle = styled.section `
     }
 
     .clickSeasonSyle{
+        position: relative;
+        display: inline-block;
+    }
+    .SeasonFit{
         margin: 20px;
         font: bold;
         color: white;
         cursor: pointer;
     }
+
+    .clickSeasonSyle:hover .seasonLayout{
+        visibility: visible;
+    }
+
+
 
     .seasonIcon{
         margin-bottom: -25px;
