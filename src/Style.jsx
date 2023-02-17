@@ -22,7 +22,7 @@ export const _App = styled.section`
     }
 
 `
-export const _navStyle = styled.section `
+export const _navStyle = styled.section`
     
     display: flex;
     text-align: center;
@@ -89,8 +89,6 @@ export const _navStyle = styled.section `
         z-index: 1;
     }
 
-
-
     .seasonIcon{
         margin-bottom: -25px;
         margin-left: -10px;
@@ -104,8 +102,6 @@ export const _previousMovies = styled.section`
     margin: 20px;
     scroll-behavior: smooth;
     position: relative;
-
-
 
     .listStyle{
         width: fit-content;
@@ -193,6 +189,10 @@ export const _previousMovies = styled.section`
         margin: 20px;
     }
 
+    .portraits{
+        border-radius: 50%;
+    }
+
     `
 
 export const _currentMovie = styled.section`
@@ -230,6 +230,10 @@ export const _currentMovie = styled.section`
 
     .navBarElement:hover{
         color: rgb(240, 255, 36);
+    }
+
+    .portraits{
+        border-radius: 50%;
     }
 `
 
