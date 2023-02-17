@@ -39,7 +39,10 @@ export const _navStyle = styled.section `
     .seasonLayout{
         visibility: hidden;
         position: absolute;
-        margin-top: -20px;
+        transform: translateY(-3em);
+        z-index: 0;
+        transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+        margin-top: -2px;
         margin-left: 25px;
     }
 
@@ -76,6 +79,9 @@ export const _navStyle = styled.section `
 
     .clickSeasonSyle:hover .seasonLayout{
         visibility: visible;
+        transform: translateY(0);
+        transition-delay: 0s, 0s, 0.3s;
+        z-index: 1;
     }
 
 
