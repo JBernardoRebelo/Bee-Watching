@@ -42,7 +42,7 @@ function Movie(){
                             <img src={img_1} height={30} width={30} alt="imdb icon"/>
                             <_par2>{Info[listIndex].rate}</_par2>
                         </div>
-                        <div>
+                        <div>                      
                             <img src={img_3} height={30} width={30} alt="rotten tomatoes icon"/>
                             <_par2>{Info[listIndex].rateRT}</_par2>
                         </div>
@@ -56,7 +56,7 @@ function Movie(){
                         </div>
                     </div>
                     <div>
-                        <img src={Info[listIndex].profilePic} height={30} width={30} alt="profile"/>
+                        <img className ="portraits" src={Info[listIndex].profilePic} height={30} width={30} alt="profile"/>
                         <p>{Info[listIndex].moviePicker}</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ function Movie(){
                                 </div>
                             </div>
                             <div className="moviePicker">
-                                <img src={item.profilePic} height={30} width={30} alt="profile"/>
+                                <img className="portraits" src={item.profilePic} height={30} width={30} alt="profile"/>
                                 <p>{item.moviePicker}</p>
                             </div>
                         </div>        

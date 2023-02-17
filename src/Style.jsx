@@ -28,6 +28,11 @@ export const _navStyle = styled.section `
     text-align: center;
     padding: 3%;
     justify-content: space-around;
+    margin-top: -20px;
+
+    .logoStyle{
+        
+    }
 
     .seasonStyle{
         margin-top: -35px;
@@ -188,6 +193,10 @@ export const _previousMovies = styled.section`
         margin: 20px;
     }
 
+    .portraits{
+        border-radius: 50%
+    }
+
     `
 
 export const _currentMovie = styled.section`
@@ -225,6 +234,10 @@ export const _currentMovie = styled.section`
 
     .navBarElement:hover{
         color: rgb(240, 255, 36);
+    }
+    
+    .portraits{
+        border-radius: 50%
     }
 `
 
