@@ -39,19 +39,19 @@ function Movie(){
                     </div>
                     <div className="flex">
                         <div>
-                            <img src={img_1} height={30} width={30} alt="imdb icon"/>
+                            <img src={img_1} height={25} width={25} alt="imdb icon"/>
                             <_par2>{Info[listIndex].rate}</_par2>
                         </div>
                         <div>                      
-                            <img src={img_3} height={30} width={30} alt="rotten tomatoes icon"/>
+                            <img src={img_3} height={25} width={25} alt="rotten tomatoes icon"/>
                             <_par2>{Info[listIndex].rateRT}</_par2>
                         </div>
                         <div>
-                            <img src={img_4} height={30} width={30} alt="metacritic icon"/>
+                            <img src={img_4} height={25} width={25} alt="metacritic icon"/>
                             <_par2>{Info[listIndex].rateMT}</_par2>
                         </div>
                         <div>
-                            <img src={img_5} height={30} width={30} alt="trailer icon"/>
+                            <img src={img_5} height={25} width={25} alt="trailer icon"/>
                             <a href={Info[listIndex].trailer} className="navBarElement"><_par2>Trailer</_par2></a>
                         </div>
                     </div>
@@ -61,13 +61,13 @@ function Movie(){
                     </div>
                 </div>
             </_currentMovie>
-            <h2>Previous Movies</h2>
+            <h3 className="italic">Previous Movies</h3>
             <_previousMovies>
                 <div className="listStyle">
                     {Info.map((item, index) => {
                     return(
                         <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                            <img src={item.coverImg} className="movieCover" height={250} width={167} alt="Movie Cover"/>
+                            <img src={item.coverImg} className="movieCover" height={210} width={140} alt="Movie Cover"/>
                             <div className="overlay">
                                 <p className="title">{item.title}</p>
                                 <p>{item.genres}</p>
