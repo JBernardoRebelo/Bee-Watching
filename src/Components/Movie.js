@@ -42,7 +42,7 @@ function Movie(){
                             <img src={img_1} height={30} width={30} alt="imdb icon"/>
                             <_par2>{Info[listIndex].rate}</_par2>
                         </div>
-                        <div>
+                        <div>                      
                             <img src={img_3} height={30} width={30} alt="rotten tomatoes icon"/>
                             <_par2>{Info[listIndex].rateRT}</_par2>
                         </div>
