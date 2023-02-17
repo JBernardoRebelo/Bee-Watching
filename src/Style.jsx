@@ -104,11 +104,20 @@ export const _previousMovies = styled.section`
     margin: 20px;
     scroll-behavior: smooth;
     overflow: auto;
+
+    &:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: blue;
+        z-indez: 99;
+        background-image: linear-gradient(-90deg, black, transparent);
+    }
     
 
     .flexbox{
-        padding-top: 20px;
-        padding-left: 5px;
+        padding-top: 60px;
+        padding-left: 20px;
         margin-left: 10px;
         display: flexbox;
     }
@@ -139,7 +148,7 @@ export const _previousMovies = styled.section`
         transition: opacity 0.4s ease-in-out;
         background: black;
         cursor: pointer;
-        font-size: 10px;
+        font-size: 12px;
       }
       
     .moviePreviousMovie:hover .overlay{
