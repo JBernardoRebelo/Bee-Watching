@@ -97,6 +97,9 @@ export const _previousMovies = styled.section`
     font-weight: bold;
     display: flex;
     margin: 20px;
+    scroll-behavior: smooth;
+    overflow: auto;
+    
 
     .flexbox{
         padding-top: 40px;
@@ -108,6 +111,7 @@ export const _previousMovies = styled.section`
     .moviePreviousMovie{
         position: relative;
         margin: 10px;
+        
     }
 
     .movieCover{
