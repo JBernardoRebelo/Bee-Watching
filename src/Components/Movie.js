@@ -63,43 +63,44 @@ function Movie(){
             </_currentMovie>
             <h2>Previous Movies</h2>
             <_previousMovies>
-
-                {Info.map((item, index) => {
-                return(
-                    <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
-                        <img src={item.coverImg} className="movieCover" height={250} width={167} alt="Movie Cover"/>
-                        <div className="overlay">
-                            <p className="title">{item.title}</p>
-                            <p>{item.genres}</p>
-                            <p>{item.duration}</p>
-                            <div>
+                <div className="listStyle">
+                    {Info.map((item, index) => {
+                    return(
+                        <div className="moviePreviousMovie" onClick={()=> setCurrentMovie(index) }>
+                            <img src={item.coverImg} className="movieCover" height={250} width={167} alt="Movie Cover"/>
+                            <div className="overlay">
+                                <p className="title">{item.title}</p>
+                                <p>{item.genres}</p>
+                                <p>{item.duration}</p>
                                 <div>
-                                    <img src={img_5} height={15} width={15} alt="trailer icon"/>
-                                    <a href={item.trailer} className="navBarElement"><_par>Trailer</_par></a>
-                                </div>
-                                <div className="flexbox">
                                     <div>
-                                        <img src={img_1} height={20} width={20} alt="imdb icon"/>
-                                        <_par>{item.rate}</_par>
+                                        <img src={img_5} height={15} width={15} alt="trailer icon"/>
+                                        <a href={item.trailer} className="navBarElement"><_par>Trailer</_par></a>
                                     </div>
-                                    <div>
-                                        <img src={img_3} height={20} width={20} alt="rotten tomatoes icon"/>
-                                        <_par>{item.rateRT}</_par>
-                                    </div>
-                                    <div>
-                                        <img src={img_4} height={20} width={20} alt="metacritic icon"/>
-                                        <_par>{item.rateMT}</_par>
+                                    <div className="flexbox">
+                                        <div>
+                                            <img src={img_1} height={20} width={20} alt="imdb icon"/>
+                                            <_par>{item.rate}</_par>
+                                        </div>
+                                        <div>
+                                            <img src={img_3} height={20} width={20} alt="rotten tomatoes icon"/>
+                                            <_par>{item.rateRT}</_par>
+                                        </div>
+                                        <div>
+                                            <img src={img_4} height={20} width={20} alt="metacritic icon"/>
+                                            <_par>{item.rateMT}</_par>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="moviePicker">
-                            <img src={item.profilePic} height={30} width={30} alt="profile"/>
-                            <p>{item.moviePicker}</p>
-                        </div>
-                    </div>        
-                )
-                })}
+                            <div className="moviePicker">
+                                <img src={item.profilePic} height={30} width={30} alt="profile"/>
+                                <p>{item.moviePicker}</p>
+                            </div>
+                        </div>        
+                    )
+                    })}
+                </div>
             </_previousMovies>
         </div>
     )

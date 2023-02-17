@@ -98,17 +98,38 @@ export const _previousMovies = styled.section`
     display: flex;
     margin: 20px;
     scroll-behavior: smooth;
-    overflow: auto;
+    position: relative;
 
-    &:after{
+
+
+    .listStyle{
+        width: fit-content;
+        display: flex;
+        scroll-behavior: smooth;
+        overflow: auto;
+    }
+    
+    .listStyle::after{
         position: absolute;
-        top: 0;
-        left: 0;
-        background: blue;
-        z-indez: 99;
+        top: 10px;
+        right: 0;
+        content: "";
+        z-index: 99;
+        height: 65%;
+        width: 150px;
         background-image: linear-gradient(-90deg, black, transparent);
     }
     
+    .listStyle::before{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        content: "";
+        z-index: 99;
+        height: 65%;
+        width: 150px;
+        background-image: linear-gradient(90deg, black, transparent);
+    }
 
     .flexbox{
         padding-top: 60px;
