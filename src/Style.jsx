@@ -117,7 +117,7 @@ export const _previousMovies = styled.section`
         z-index: 99;
         height: 62%;
         width: 150px;
-        background-image: linear-gradient(-90deg, black, transparent);
+        background-image: linear-gradient(-90deg, transparent);
     }
     
     .listStyle::before{
