@@ -56,7 +56,7 @@ function Movie(){
                         </div>
                     </div>
                     <div>
-                        <img className ="portrasits" src={Info[listIndex].profilePic} height={30} width={30} alt="profile"/>
+                        <img className ="portraits" src={Info[listIndex].profilePic} height={30} width={30} alt="profile"/>
                         <p>{Info[listIndex].moviePicker}</p>
                     </div>
                 </div>
